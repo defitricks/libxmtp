@@ -11,7 +11,7 @@ use xmtp_proto::xmtp::xmtpv4::message_api::{
 #[derive(Debug, Builder, Default)]
 #[builder(setter(strip_option))]
 pub struct GetInboxIds {
-    #[builder(setter(into))]
+    #[builder(setter(into), default)]
     addresses: Vec<String>,
     #[builder(setter(into), default)]
     passkeys: Vec<String>,

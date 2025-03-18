@@ -7473,6 +7473,7 @@ dependencies = [
  "async-trait",
  "ctor",
  "derive_builder",
+ "futures",
  "hex",
  "once_cell",
  "parking_lot 0.12.3",
